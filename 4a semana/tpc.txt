@@ -1,0 +1,10 @@
+ir ao github
+
+-criar repositorio para a UC
+-criar pasta p/ cada tp a partir de agora
+-colocar na pasta:
+    WEBSITE + servidor
+    manifesto em XML e HTML
+-enviar mail para o prof
+    manifesto-tp4.xml
+    manifesto-tp4.html

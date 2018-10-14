@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "../../manifesto.dtd">
+<manifesto>
+    <meta>
+        <identificador>DAW_MIEI2018_XSLT</identificador>
+        <titulo>Stylesheet XSLT para gerar um website a partir de um dataset </titulo>
+        <subtitulo>TP3</subtitulo>
+        <dinicio>02 de Setembro de 2018</dinicio>
+        <dfim>09 de Setembro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>Bruno Rafael Mendes Magalhães</nome>
+            <email>a75377@alunos.uminho.pt</email>
+            <identificador>A75377</identificador>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>Elaboração de uma <i>stylesheet</i> em XSLT para gerar um website multi página a partir de um dataset.</para>
+        <para>Para este exemplo, o dataset escolhido foi a versão XML do livro religioso 'The Quran' disponivel em http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/religion/</para>
+        </resumo>
+    <resultados>
+        <resultado url="website/index.html">
+            <texto>Homepage do Website criado (index.html)</texto>
+        </resultado>
+        <resultado url="quran.xml">
+            <texto>Versão XML do 'The Quran'</texto>
+        </resultado>
+        <resultado url="religion.xsl">
+            <texto>Stylesheet XSLT elaborada</texto>
+        </resultado>
+    </resultados>
+</manifesto>
