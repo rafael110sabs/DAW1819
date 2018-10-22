@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "../../manifesto.dtd">
+<manifesto>
+    <meta>
+        <identificador>DAW_MIEI2018_NODEJS</identificador>
+        <titulo>Servidor de ficheiros HTML com recurso à framework Pug </titulo>
+        <subtitulo>TP5</subtitulo>
+        <dinicio>16 de Setembro de 2018</dinicio>
+        <dfim>23 de Setembro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>Bruno Rafael Mendes Magalhães</nome>
+            <email>a75377@alunos.uminho.pt</email>
+            <identificador>A75377</identificador>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>Continuação do desenvolvimento de servidores de ficheiros HTML com recurso a NodeJS.</para>
+        <para>Introdução da framework Pug para agilizar o processo de criação de templates para apresentar os dados.</para>
+        <para>Ainda, para melhorar a apresentação das páginas, foi introduzida a framework w3css.</para>
+        </resumo>
+    <resultados>
+        <resultado url="https://github.com/rafael110sabs/DAW1819">
+            <texto>Repositório Git para a submissão dos trabalhos</texto>
+        </resultado>
+    </resultados>
+</manifesto>

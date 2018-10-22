@@ -1,0 +1,16 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+                h1.w3-text-white.w3-center Arquivo de Partituras
+            .w3-row-padding.w3-center
+                each entrada in partituras
+                    .w3-quarter
+                        .w3-center.w3-round.w3-hover-light-blue
+                            a.w3-button.w3-hover-light-blue(href="/partitura/"+entrada.id)= entrada.titulo
+                    
+            footer.w3-container.w3-blue.w3-center.w3-padding
+                address Gerado por Devolpment &copy Musical S.A.
+
