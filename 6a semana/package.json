@@ -1,0 +1,16 @@
+{
+  "name": "6a-semana",
+  "version": "1.0.0",
+  "description": "To-Do Manager",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "Rafael O Bonito",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "pug": "^2.0.3",
+    "uuid": "^3.3.2"
+  }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "../../manifesto.dtd">
+<manifesto>
+    <meta>
+        <identificador>DAW_MIEI2018_FORMS</identificador>
+        <titulo>Aplicação de gestão de tarefas com NodeJS e Pug </titulo>
+        <subtitulo>TP6</subtitulo>
+        <dinicio>24 de Outubro de 2018</dinicio>
+        <dfim>30 de Outubro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>Bruno Rafael Mendes Magalhães</nome>
+            <email>a75377@alunos.uminho.pt</email>
+            <identificador>A75377</identificador>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>Foi desenvolvida uma aplicação de gestão de tarefas com recurso ao NodeJS e à framework Pug.</para>
+        <para>A presente tarefa serviu também para solidificar os conhecimentos relativos ao elemento HTML, <i>form</i>, e às suas diferentes formas de utilização.</para>
+        <para>Para assegurar a persistencia dos dados, é utilizada uma API de leitura e escrita de ficheiros no formato JSON.</para>
+        <para>A aplicação final apresenta todas as quatro funções básicas, <b>CRUD</b>.</para>
+        </resumo>
+    <resultados>
+        <resultado url="https://github.com/rafael110sabs/DAW1819">
+            <texto>Repositório Git para a submissão dos trabalhos</texto>
+        </resultado>
+    </resultados>
+</manifesto>

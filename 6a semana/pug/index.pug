@@ -1,0 +1,46 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-yellow.w3-center
+                    h3 To-Do Manager
+            .w3-container.w3-margin
+                h4 Task list
+                ul.w3-ul.w3-container
+                    each todo in lista
+                        .w3-row-padding
+                            if (!todo.done)
+                                li.w3-col.l8
+                                    b= todo.task 
+                                    i= ' till ' + todo.expiration
+                                a.w3-btn.w3-amber.w3-col.l1.w3-margin-right(href='todo?id='+todo.id) View
+                                a.w3-btn.w3-amber.w3-col.l1.w3-margin-right(href='done?id='+todo.id) Done
+                                a.w3-btn.w3-amber.w3-col.l1.w3-margin-right(href='remove?id='+todo.id) Remove
+                            else
+                                li.w3-col.l8.done
+                                    b= todo.task
+                                a.w3-btn.w3-amber.w3-col.l1.w3-margin-right(href='todo?id='+todo.id) View
+                                a.w3-btn.w3-amber.w3-col.l1.w3-margin-right(href='undone?id='+todo.id) Undone
+                                a.w3-btn.w3-amber.w3-col.l1.w3-margin-right(href='remove?id='+todo.id) Remove
+            .w3-container.w3-margin
+                h4 Add a new task!
+                form.w3-container.w3-(action="todo" method="POST")
+                    label.w3-yellow.w3-margin
+                        b Task
+                    input.w3-input.w3-border.w3-light-grey.w3-margin(type='text' name='task')
+                    label.w3-yellow.w3-margin
+                        b Till
+                    input.w3-input.w3-border.w3-light-grey.w3-margin(type='datetime-local' name='expiration')
+                    label.w3-yellow.w3-margin
+                        b Type
+                    .w3-container.w3-margin-top
+                        select(name="type")
+                            option(value="task") Task
+                            option(value="shop") ShopList
+                            option(value="event") Event
+                    input.w3-btn.w3-amber.w3-margin(type='submit' value='Add')
+                    input.w3-btn.w3-amber.w3-margin(type='reset' value='Reset')
+            footer.w3-container.w3-yellow.w3-padding
+                address Gerado por FormApp
+            
