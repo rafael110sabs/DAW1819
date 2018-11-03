@@ -1,0 +1,20 @@
+{
+  "name": "7a-semana",
+  "version": "1.0.0",
+  "description": "File storage application",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Rafael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "jsonfile": "^5.0.0",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3",
+    "uuid": "^3.3.2"
+  }
+}

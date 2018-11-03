@@ -1,0 +1,21 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                    h3 Ficheiro received
+            .w3-container.w3-margin
+                p The following file was received:
+                table.w3-table-all
+                    tr
+                        th File
+                        td Description
+                        td Upload date
+                    tr
+                        th= file.name
+                        td= file.description
+                        td= file.update
+                a.w3-btn.w3-blue-gray.w3-margin(href='/') Back
+            footer.w3-container.w3-teal.w3-padding
+                address Gerado por FormApp
