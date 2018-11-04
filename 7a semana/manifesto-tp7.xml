@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "../../manifesto.dtd">
+<manifesto>
+    <meta>
+        <identificador>DAW_MIEI2018_EXPRESS_JQUERY</identificador>
+        <titulo>Upload de ficheiros para um servidor através de formulários</titulo>
+        <subtitulo>TP7</subtitulo>
+        <dinicio>30 de Outubro de 2018</dinicio>
+        <dfim>06 de Novembro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>Bruno Rafael Mendes Magalhães</nome>
+            <email>a75377@alunos.uminho.pt</email>
+            <identificador>A75377</identificador>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>Desenvolveu-se uma aplicação para a submissão de ficheiros para um servidor.</para>
+        <para>Para tal, foi preciso compreender como utilizar <b>formulários para a submissão de ficheiros.</b></para>
+        <para>Desta vez, para facilitar a implementação das rotas e processamento de pedidos, utilizou-se a framework <b>Express</b> para NodeJS.</para>
+        <para>Como desafio extra, a aplicação teria de apresentar uma listagem dos ficheiros já submetidos, 
+              na mesma página do formulário, e atualizar essa listagem sem atualizar a página.
+              Para tal, fez-se uso da combinação <b>JQuery + AJAX</b>.</para>
+        <para>A aplicação final pode ser encontrada no repositório git indicado em baixo.</para>
+    </resumo>
+    <resultados>
+        <resultado url="https://github.com/rafael110sabs/DAW1819">
+            <texto>Repositório Git para a submissão dos trabalhos</texto>
+        </resultado>
+    </resultados>
+</manifesto>
