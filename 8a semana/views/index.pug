@@ -1,0 +1,22 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                    h3 File Upload Tool
+            .w3-container
+                form#form.w3-container(action='/processaForm' method='POST' enctype='multipart/form-data')
+                    label.w3-teal.w3-margin
+                        b File
+                    input.w3-input.w3-border.w3-light-grey.w3-margin(type='file' name='file')
+                    label.w3-teal.w3-margin
+                        b Description
+                    input.w3-input.w3-border.w3-light-grey.w3-margin(type='text' name='description')
+                    input.w3-btn.w3-blue-grey.w3-margin#upload(type='submit' value='Upload')
+                    input.w3-btn.w3-blue-grey.w3-margin#reset(type='reset' value='Reset')
+                p#upsuccess
+        .w3-card-4#file-list
+        footer.w3-container.w3-teal.w3-padding
+            address Gerado por FormApp
+            

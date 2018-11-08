@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "../../manifesto.dtd">
+<manifesto>
+    <meta>
+        <identificador>DAW_MIEI2018_EXPRESS_JQUERY_AJAX</identificador>
+        <titulo>Upload de ficheiros para um servidor através de formulários, versão 2</titulo>
+        <subtitulo>TP8</subtitulo>
+        <dinicio>06 de Novembro de 2018</dinicio>
+        <dfim>13 de Novembro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>Bruno Rafael Mendes Magalhães</nome>
+            <email>a75377@alunos.uminho.pt</email>
+            <identificador>A75377</identificador>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>Cópia da aplicação desenvolvida na TP anterior, mas desta vez com recurso à ferramenta <b>express-generator</b> que cria um projeto Express em NodeJS.</para>
+    </resumo>
+    <resultados>
+        <resultado url="https://github.com/rafael110sabs/DAW1819">
+            <texto>Repositório Git para a submissão dos trabalhos</texto>
+        </resultado>
+    </resultados>
+</manifesto>
